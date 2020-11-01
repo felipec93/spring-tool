@@ -23,9 +23,9 @@ public class ejerciciosl1 {
 		
 		try (Scanner leer = new Scanner(System.in) ) {
 				
-			System.out.println("¿la tierra es redonda? [0]...verdad? ");
+			System.out.println("¿la tierra es redonda? [0]...falso [1]...verdad? ");
 				l1 = leer.nextInt();
-				System.out.print("¿simon bolibar liberto a panama? [0]...falso [1]...verdad? ");
+				System.out.print("¿25 es un cuadrado perfecto? [0]...falso [1]...verdad? ");
 				l2 = leer.nextInt();
 	}
 	if (l1==1) tr1=true;
